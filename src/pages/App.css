@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+
+.Nav-wrapper{
+  height: 50px;
+  width: auto;
+  background-color: #173601;
+  display: flex;
+  flex-direction: row;
+  align-items: center ;
+}
+
+
+.Nav-item {
+  color: lightgrey;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.App-logo-nav {
+  height:40px;
+  width: 40px;
+  margin-left:20px;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: lightgrey;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.Input-wrapper{
+  margin-top: 100px;
+}
+
+.Uploade-container{
+  margin-top: 50px;;
+  height: 300px;
+  background-color: #f2ffe9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Button-submit{
+  color: grey;
+  height: 50px;
+  width: 300px;
+  border-radius: 5px;
+  background: white;
+  box-sizing: border-box;
+
+}
+
+.select-user-type{
+  margin:20px 20px 0 0 ;
+  color: green;
+  height: 50px;
+  width: 300px;
+}
+
+
+.input-user{
+  margin:20px 20px 0 0 ;
+  height: 50px;
+  width: 300px;
+
+}
